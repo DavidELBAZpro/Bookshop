@@ -1,0 +1,113 @@
+
+body {
+    text-align: center;
+    overflow-x: hidden;
+    background-image:url("https://www.educaborras.com/wp-content/uploads/2021/07/18583_01_high.jpg");
+}
+
+h1 {
+    color: lightgreen;
+}
+
+td {
+    padding: 10px;
+    border: 1px dotted gray;
+}
+
+table {
+    padding: 100px;
+    border-collapse: collapse;
+    border-radius: 20px;
+}
+.books-table {
+    background-color: skyblue;
+    margin: auto;
+
+    border: 2px solid black;
+    padding: 100px;
+}
+
+.books-table button {
+    cursor: pointer;
+    font-weight: bold;
+    padding: 20px;
+    color: gray;
+    border-radius: 10px;
+}
+
+.books-table button:hover {
+    background: var(--colorShadeD);
+    transform: translate(0, 0.370em);
+    transition: .2s ease-in-out;
+}
+
+.btn-to-read  {
+    background-color: pink;
+}
+
+.btn-to-update  {
+    background-color : lightgreen;
+}
+
+.btn-to-delete  {
+    background-color: rebeccapurple;
+}
+
+.btn-to-add {
+    cursor: pointer;
+    background-color: lightsalmon;
+    border-radius:10px;
+}
+
+img {
+    width: 90px;
+}
+
+.modal {
+    background-color: gray;
+    padding: 10px;
+    position: absolute;
+    top: 0px;
+    left: 150%;
+    height: 80vh;
+    min-width: 300px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.modal.open {
+    left: 50%;
+    transition: left .5s;
+}
+
+.modal h3{
+    color:pink;
+    text-decoration: overline;
+    text-transform: capitalize;
+}
+
+.modal h4 span{
+    color:pink;
+}
+
+.modal > p {
+    text-align: left;
+    color: pink;
+}
+
+
+.user-msg {
+    position: fixed;
+    bottom: -100px;
+    right:10px;
+    background-color: gray;
+    padding: 10px;
+}
+.user-msg.open {
+    bottom: 10px;
+    transition: bottom .5s;
+}
+
+.image-in-modal  {
+    border-radius: 40px ;
+}
